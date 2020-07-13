@@ -1,0 +1,8 @@
+.page {
+  min-height: 100vh;
+  background: url('./assets/bg.jpg'),
+              linear-gradient(180.21deg, rgba(227, 227, 227, 0.5148) 1.29%, rgba(229, 229, 229, 0.3036) 42.63%, rgba(238, 238, 238, 0.1848) 70.3%, rgba(255, 255, 255, 0) 98.71%);
+  background-size: auto auto ,100% 200px;
+  background-position: top left, top left;
+  background-repeat: repeat, no-repeat;
+}

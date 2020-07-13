@@ -1,0 +1,39 @@
+header {
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  .logo {
+    text-transform: uppercase;
+    font-family: Optima;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #18302E;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.09em;
+      margin: 0 30px;
+      color: #3C3C3C;
+    }
+    
+    a:last-of-type{
+      margin-right: 0;
+      padding-left: 0;
+    }
+  }
+}

@@ -1,8 +1,9 @@
 body {
+  font-family: 'Futura';
+  font-size: 18px;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color: #3C3C3C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,100 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a {
+  text-decoration: none;
+}
+.container{
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaDemiC.eot');
+	src: local('./fonts/Futura Demi Cyrillic'), local('FuturaDemiC'),
+		url('./fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaDemiC.woff') format('woff'),
+		url('./fonts/FuturaDemiC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaMediumC.eot');
+	src: local('./fonts/Futura Medium Cyrillic'), local('FuturaMediumC'),
+		url('./fonts/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaMediumC.woff') format('woff'),
+		url('./fonts/FuturaMediumC.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaLightC-Italic.eot');
+	src: local('./fonts/Futura Light Italic Cyrillic'), local('FuturaLightC-Italic'),
+		url('./fonts/FuturaLightC-Italic.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaLightC-Italic.woff') format('woff'),
+		url('./fonts/FuturaLightC-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaMediumC-Italic.eot');
+	src: local('./fonts/Futura Medium Italic Cyrillic'), local('FuturaMediumC-Italic'),
+		url('./fonts/FuturaMediumC-Italic.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaMediumC-Italic.woff') format('woff'),
+		url('./fonts/FuturaMediumC-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaLightC.eot');
+	src: local('./fonts/Futura Light Cyrillic'), local('FuturaLightC'),
+		url('./fonts/FuturaLightC.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaLightC.woff') format('woff'),
+		url('./fonts/FuturaLightC.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaDemiC-Italic.eot');
+	src: local('./fonts/Futura Demi Italic Cyrillic'), local('FuturaDemiC-Italic'),
+		url('./fonts/FuturaDemiC-Italic.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaDemiC-Italic.woff') format('woff'),
+		url('./fonts/FuturaDemiC-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaBookC-Italic.eot');
+	src: local('./fonts/Futura Book Italic Cyrillic'), local('FuturaBookC-Italic'),
+		url('./fonts/FuturaBookC-Italic.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaBookC-Italic.woff') format('woff'),
+		url('./fonts/FuturaBookC-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('./fonts/FuturaBookC.eot');
+	src: local('./fonts/Futura Book Cyrillic'), local('FuturaBookC'),
+		url('./fonts/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FuturaBookC.woff') format('woff'),
+		url('./fonts/FuturaBookC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
